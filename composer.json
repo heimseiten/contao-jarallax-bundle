@@ -2,10 +2,7 @@
     "name": "heimseiten/contao-jarallax-bundle",
     "description": "Adds jarallax.js to Contao",
     "keywords": [
-        "contao",
-        "bundle",
-        "tag 3",
-        "tag 4"
+        "parallax"
     ],
     "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
