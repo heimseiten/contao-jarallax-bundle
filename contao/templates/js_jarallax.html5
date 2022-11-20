@@ -1,0 +1,12 @@
+<?php
+  $GLOBALS['TL_HEAD'][] = '<script defer src="/bundles/heimseitencontaojarallax/jarallax.min.js"></script>';
+  $GLOBALS['TL_CSS'][] = '/bundles/heimseitencontaojarallax/jarallax.css|static';
+?>  
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    jarallax(document.querySelectorAll('.jarallax'), {
+      speed: 0.6,
+      imgElement: '.jarallax picture',
+    });
+  })
+</script>
